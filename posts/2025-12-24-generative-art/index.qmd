@@ -13,14 +13,23 @@ We are looking for a way to visualize the "interface" between geometric forms an
 ## The Code
 Here is a snippet of the Wolfram Language code I am using:
 
-```wolfram
+```{=wolfram}
 Table[Style[k, Hue[k/20]], {k, 1, 20}]
+```
 
-##The Math
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+## The Math
 
 The core of the structure relies on the flow polytope equation:
 
-$$ \mathcal{F}G = \left{ x \in \mathbb{R}^E : \sum{e \in \text{in}(v)} x_e = \sum_{e \in \text{out}(v)} x_e \right} $$
+$$\mathcal{F}_G = \left{ x \in \mathbb{R}^E : \sum{e \in \text{in}(v)} x_e = \sum_{e \in \text{out}(v)} x_e \right}$$
 
 :::{.callout-note}
 Note that there are five types of callouts, including: 
