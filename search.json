@@ -25,7 +25,7 @@
     "href": "posts/2025-12-24-generative-art/index.html#the-code",
     "title": "Experiments in Generative Art",
     "section": "The Code",
-    "text": "The Code\nHere is a snippet of the Wolfram Language code I am using:\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
+    "text": "The Code\nHere is a snippet of the Wolfram Language1 code I am using:\nTable[Style[k, Hue[k/20]], {k, 1, 20}]\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   },
   {
     "objectID": "posts/2025-12-24-generative-art/index.html#the-math",
@@ -33,6 +33,13 @@
     "title": "Experiments in Generative Art",
     "section": "The Math",
     "text": "The Math\nThe core of the structure relies on the flow polytope equation:\n\\[\\mathcal{F}_G = \\left{ x \\in \\mathbb{R}^E : \\sum{e \\in \\text{in}(v)} x_e = \\sum_{e \\in \\text{out}(v)} x_e \\right}\\]\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
+  },
+  {
+    "objectID": "posts/2025-12-24-generative-art/index.html#footnotes",
+    "href": "posts/2025-12-24-generative-art/index.html#footnotes",
+    "title": "Experiments in Generative Art",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHey wait I can make a footnote!\nAnd if I want the footnote to be multiple lines I can do that too.↩︎"
   },
   {
     "objectID": "index.html",
