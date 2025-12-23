@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MathZorro Blog Test"
+  navbar:
+    left:
+      - text: "Back to Main Site"
+        href: https://mathzorro.github.io
+      - text: "Blog Home"
+        href: index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
