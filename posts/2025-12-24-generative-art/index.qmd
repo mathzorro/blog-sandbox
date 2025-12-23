@@ -1,0 +1,48 @@
+---
+title: "Experiments in Generative Art"
+date: "2025-12-24"
+categories: [art, code]
+description: "This is the description that appears on the list of posts. It can include $\LaTeX$."
+---
+
+I have been working on a new project that combines knot theory with music.
+
+## The Concept
+We are looking for a way to visualize the "interface" between geometric forms and organic forms.
+
+## The Code
+Here is a snippet of the Wolfram Language code I am using:
+
+```wolfram
+Table[Style[k, Hue[k/20]], {k, 1, 20}]
+
+##The Math
+
+The core of the structure relies on the flow polytope equation:
+
+$$ \mathcal{F}G = \left{ x \in \mathbb{R}^E : \sum{e \in \text{in}(v)} x_e = \sum_{e \in \text{out}(v)} x_e \right} $$
+
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-tip}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-warning}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-caution}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-important}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
