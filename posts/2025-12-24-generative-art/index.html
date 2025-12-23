@@ -70,6 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -146,6 +149,7 @@ window.Quarto = {
   <ul>
   <li><a href="#the-concept" id="toc-the-concept" class="nav-link active" data-scroll-target="#the-concept">The Concept</a></li>
   <li><a href="#the-code" id="toc-the-code" class="nav-link" data-scroll-target="#the-code">The Code</a></li>
+  <li><a href="#the-math" id="toc-the-math" class="nav-link" data-scroll-target="#the-math">The Math</a></li>
   </ul>
 </nav>
     </div>
@@ -194,10 +198,27 @@ window.Quarto = {
 <section id="the-code" class="level2">
 <h2 class="anchored" data-anchor-id="the-code">The Code</h2>
 <p>Here is a snippet of the Wolfram Language code I am using:</p>
-<p>```wolfram Table[Style[k, Hue[k/20]], {k, 1, 20}]</p>
-<p>##The Math</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="the-math" class="level2">
+<h2 class="anchored" data-anchor-id="the-math">The Math</h2>
 <p>The core of the structure relies on the flow polytope equation:</p>
-<p><span class="math display">\[ \mathcal{F}G = \left{ x \in \mathbb{R}^E : \sum{e \in \text{in}(v)} x_e = \sum_{e \in \text{out}(v)} x_e \right} \]</span></p>
+<p><span class="math display">\[\mathcal{F}_G = \left{ x \in \mathbb{R}^E : \sum{e \in \text{in}(v)} x_e = \sum_{e \in \text{out}(v)} x_e \right}\]</span></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
