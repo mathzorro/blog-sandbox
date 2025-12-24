@@ -28,6 +28,9 @@ website:
         href: https://hanusa.xyz/blog/
       - text: "Contact"
         href: https://hanusa.xyz/contact.html
+
+  sidebar:
+    search: true
               
 format:
   html:
