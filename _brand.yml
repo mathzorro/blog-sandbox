@@ -1,17 +1,22 @@
 color:
-  palette:
-    dark-grey: "#222222"
-    blue: "#ddeaf1"
-  background: blue
-  foreground: dark-grey
-  primary: black
+  primary: white
+  background:
+    light: "#ffffff"
+    dark: "#333333"
+  foreground:
+    light: "#333333"
+    dark: "#ffffff"
 
 logo: 
   medium: logo.png
 
 typography:
   fonts:
-    - family: Jura
+    - family: Fenix
       source: google
-  base: Jura
-  headings: Jura
+  base: Fenix
+  headings: Fenix
+  headings:
+    color:
+      light: "#111144"
+      dark: "#d0d0ff"
