@@ -1,11 +1,6 @@
 color:
-  primary: white
-  background:
-    light: "#ffffff"
-    dark: "#333333"
-  foreground:
-    light: "#333333"
-    dark: "#ffffff"
+  background: "#ffffff"
+  foreground: "#333333"
 
 logo: 
   medium: hanusa-xyz.png
