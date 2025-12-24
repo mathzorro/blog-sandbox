@@ -11,10 +11,7 @@ website:
     background: "white"  # You can change this hex color to match your site
     foreground: "#666666"    # Text color
 
-    left:
-        logo-href: https://hanusa.xyz
 
-            
     # "right" items appear on the far right side
     right:
       - text: "Research"
