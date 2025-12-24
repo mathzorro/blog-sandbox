@@ -2,9 +2,6 @@ color:
   background: "#ffffff"
   foreground: "#333333"
 
-logo: 
-  medium: hanusa-xyz.png
-
 typography:
   fonts:
     - family: Fenix
