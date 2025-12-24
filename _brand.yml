@@ -16,6 +16,3 @@ typography:
       source: google
   base: Fenix
   headings: Fenix
-  color:
-    light: "#111144"
-    dark: "#d0d0ff"
