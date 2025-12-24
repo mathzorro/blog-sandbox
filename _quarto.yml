@@ -4,10 +4,13 @@ project:
 
 website:
 #  title: "MathZorro Blog"  # Text in top left corner
-  sidebar:
-    search: true       # Turn it on in the side menu
-    contents:
-      - index.qmd
+  margin-header: |
+    search: true       
+    **Feeds** [All Posts](index.qmd)  
+    [Math](math.qmd)  
+    [Art](art.qmd)  
+    [Misc](misc.qmd)  
+    [Admin](admin.qmd)
   navbar:
     background: "white"  # You can change this hex color to match your site
     foreground: "#222222"    # Text color
@@ -49,3 +52,10 @@ website:
       - text: "Contact"
         href: https://hanusa.xyz/contact.html
 
+format:
+  html:
+    grid:
+      sidebar-width: 100px
+    toc: true           # Turns on the Table of Contents
+    toc-location: right # Ensures it stays on the right
+    toc-title: "On this page"
