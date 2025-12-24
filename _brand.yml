@@ -8,7 +8,7 @@ color:
     dark: "#ffffff"
 
 logo: 
-  medium: logo.png
+  medium: hanusa-xyz.png
 
 typography:
   fonts:
@@ -16,7 +16,6 @@ typography:
       source: google
   base: Fenix
   headings: Fenix
-  headings:
-    color:
-      light: "#111144"
-      dark: "#d0d0ff"
+  color:
+    light: "#111144"
+    dark: "#d0d0ff"
