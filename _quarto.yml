@@ -5,22 +5,6 @@ project:
 website:
 #  title: "MathZorro Blog"  # Text in top left corner
   margin-header: |
-    search: true       
-    **Feeds** [All Posts](index.qmd)  
-    [Math](math.qmd)  
-    [Art](art.qmd)  
-    [Misc](misc.qmd)  
-    [Admin](admin.qmd)
-  navbar:
-    background: "white"  # You can change this hex color to match your site
-    foreground: "#222222"    # Text color
-    search: false           # Enables the search magnifying glass
-    
-    # "left" items appear next to the title
-    left:
-#      - text: "Main Site"
-#        href: https://mathzorro.github.io/
-      
       # A drop-down menu for your Blog Categories
       - text: "Blog Categories"
         menu:
@@ -34,8 +18,16 @@ website:
             href: index.html#category=leadership
           - text: "Misc"
             href: index.html#category=misc
-      - icon: search
-        href: search.qmd
+  navbar:
+    background: "white"  # You can change this hex color to match your site
+    foreground: "#222222"    # Text color
+    search: false           # Enables the search magnifying glass
+    
+    # "left" items appear next to the title
+    left:
+      - text: "Blog"
+        href: "."
+      
         
     # "right" items appear on the far right side
     right:
