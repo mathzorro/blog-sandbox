@@ -31,8 +31,6 @@ website:
 
   sidebar:
     search: true
-    contents:
-      - section: "Basics"
               
 format:
   html:
