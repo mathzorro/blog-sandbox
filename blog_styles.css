@@ -1,6 +1,6 @@
 /* Increase the logo size */
 .navbar-logo img {
-  height: 50px;  /* Default is usually around 30px */
+  height: 50px !important;  /* Default is usually around 30px */
   width: auto;       /* Maintains aspect ratio */
 }
 
