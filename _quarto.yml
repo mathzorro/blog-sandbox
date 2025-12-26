@@ -7,8 +7,11 @@ listing:
   categories: true
   feed:
     categories:     
-      - "News"
-      - "R"  
+      - "math"
+      - "art"  
+      - "teaching"
+      - "leadership"
+      - "misc"
 website:
   site-url: "https://hanusa.xyz"  # <--- This is required for RSS
   description: "A blog about stuff"
