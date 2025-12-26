@@ -12,6 +12,7 @@ listing:
       - "teaching"
       - "leadership"
       - "misc"
+      
 website:
   title: "My Blog"
   site-url: "https://hanusa.xyz"  # <--- This is required for RSS
@@ -22,6 +23,7 @@ website:
     type: textbox
     
   navbar:
+    title: false
     logo: "hanusa-xyz.png"       
     logo-href: https://hanusa.xyz 
     background: "white"  
