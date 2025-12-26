@@ -36,5 +36,5 @@ format:
   html:
     toc: true          
     toc-location: left 
-    toc-title: "On this page"
+    toc-title: "Contents" # Fallback if title is missing
     css: blog_styles.css  
