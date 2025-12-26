@@ -13,6 +13,9 @@ website:
     background: "white"  
     foreground: "#666666"    # Text color
 
+    left:
+     - text: "Blog"
+       href: https://hanusa.xyz/blog/
 
     # "right" items appear on the far right side
     right:
