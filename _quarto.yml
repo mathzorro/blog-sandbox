@@ -34,7 +34,9 @@ website:
 
   sidebar:
     search: true
-              
+    contents:
+      - text: "All posts"     # <--- This creates the link below search
+        href: index.qmd              
 format:
   html:
     toc: true          
