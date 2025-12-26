@@ -6,7 +6,7 @@ listing:
   type: default
   categories: true
   feed: 
-    type: [rss, json]     # <--- This generates both index.xml AND index.json
+    type: full     # <--- This generates both index.xml AND index.json
     items: 30             # Optional: limit to 10 most recent
   fields: [date, title, description, categories, image]
 ---
