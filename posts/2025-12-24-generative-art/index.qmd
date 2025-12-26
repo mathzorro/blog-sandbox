@@ -2,7 +2,10 @@
 title: "Experiments in Generative Art"
 date: "2025-12-24"
 categories: [art, code]
+toc-title: "Experiments" # <--- Match your title here
+toc: true
 description: "This is the description that appears on the list of posts. It cannot include LaTeX."
+short-description: "This is a shorter blurb description."
 ---
 
 I have been working on a new project that combines knot theory with music.
