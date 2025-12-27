@@ -1,24 +1,7 @@
 /* Increase the logo size */
-.navbar-logo img {
+.navbar-brand-container img {
   height: 50px !important;  /* Default is usually around 30px */
   width: 148px !important;  /* Default is usually around 30px */
-}
-
-/* Optional: Adjust the navbar height to fit the larger logo */
-.navbar {
-  min-height: 57px; 
-}
-
-.navbar-container {
-  min-height: 57px; 
-}
-
-.navbar-brand {
-  min-height: 57px; 
-}
-
-.navbar-brand-container {
-  min-height: 57px; 
 }
 
 /* Customize Navbar Text */
