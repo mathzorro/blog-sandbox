@@ -4,6 +4,12 @@ date: "2026-01-01"
 categories: [misc,meta]
 toc: true
 description: "I've renewed my website for 2026, including a refreshed feel and an integrated blog. How did it happen and what can you expect from the update?"
+author:
+  - name: Christopher Hanusa
+    url: https://hanusa.xyz/blog/posts/2026-01-01-new-site/
+citation: true
+bibliography: biblio.bib
+appendix-cite-as: display
 ---
 
 ## Welcome!
