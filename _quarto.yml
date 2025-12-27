@@ -4,6 +4,7 @@ project:
 
 listing:
   contents: posts
+  sort: "date"
   categories: true
   feed:
     categories:     
