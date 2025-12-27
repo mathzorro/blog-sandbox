@@ -4,6 +4,11 @@
   height: auto;
 }
 
+/* Optional: Adjust the navbar height to fit the larger logo */
+.navbar {
+  min-height: 67px; 
+}
+
 /* Customize Navbar Text */
 .navbar-nav .nav-link {
   font-size: 17px !important;  /* Adjust this number for size */
