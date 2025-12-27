@@ -5,7 +5,9 @@ categories: [misc,meta]
 toc: true
 description: "I've renewed my website for 2026, including a refreshed feel and an integrated blog. How did it happen and what can you expect from the update?"
 author:
-  - name: Christopher R. H. Hanusa
+  - name: 
+      given: Christopher R. H. 
+      family: Hanusa
     url: https://hanusa.xyz/blog/posts/2026-01-01-new-site/
 citation: true
 appendix-cite-as: display
@@ -30,5 +32,5 @@ The site is hosted on Github Pages, and was developed with the help of Google Ge
 The blog feature is built using Quarto, which allows for built in $\LaTeX$ code: $$\sum_{i=1}^\infty \textup{Wow}_i!.$$
 
 :::{.callout-note}
-Quarto has a lot of built in features, including these callouts!
+Quarto has a lot of built in features, including these fun callouts!
 :::
