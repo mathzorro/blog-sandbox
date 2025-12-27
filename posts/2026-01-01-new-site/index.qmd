@@ -1,0 +1,23 @@
+---
+title: "New Year, New Site"
+date: "2026-01-01"
+categories: [misc,meta]
+toc: true
+description: "I've renewed my website for 2026, including a refreshed feel and an integrated blog."
+---
+
+# New Year, New Site
+
+Welcome to the new hanusa.xyz. In 2025, Queens College transitioned all its webpages away from the college infrastructure. So I set up hanusa.xyz to be my index.html away from home. 
+I've taken the time to redevelop the site to be more reflective of the breadth of the work that I do in my job.
+
+## The Vision
+
+## Coding the Site
+The site is hosted on Github Pages, and was developed with the help of Google Gemini. 
+
+Furthermore, the blog feature is built on Quarto, which allows for built in $\LaTeX$ code $$\sum_{i=1}^\infty \textup{Wow_i!}.$$
+
+:::{.callout-note}
+Quarto has a lot of built in features, including these callouts!
+:::
